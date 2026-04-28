@@ -1,0 +1,9 @@
+subject_id,source,age_group,reprimand_frequency,reprimand_intensity,public_exposure,R_index,defiance_tendency,self_efficacy_erosion,F_fracture,problem_behavior_freq,phase,notes
+REF_001,Gershoff2002,elementary,1,2,1,4,1,2,-1,1,C4_correction,"Moderate reprimand; compliance pathway observable; source: Gershoff 2002 meta-analysis low-severity cluster"
+REF_002,Gershoff2002,elementary,2,3,2,7,3,1,2,3,L_pressure,"High-intensity punitive reprimand; defiance consolidation observed; source: Gershoff 2002 high-severity cluster"
+REF_003,Pomerantz2000,middle,1,1,0,2,0,2,-2,0,C4_correction,"Low pressure; self-efficacy erosion dominant; compliance; source: Pomerantz & Eaton 2000"
+REF_004,Pomerantz2000,middle,2,2,2,6,2,1,1,2,L_pressure,"Moderate-high pressure; behavior persists under sustained reprimand; source: Pomerantz & Eaton 2000"
+REF_005,Skinner1998,elementary,3,3,3,9,3,0,3,3,L_pressure,"Maximum pressure index; full defiance consolidation; behavior persists; source: Skinner et al. 1998"
+REF_006,Skinner1998,middle,1,2,0,3,1,1,0,1,B_dominant,"Low pressure; ambiguous internal state; source: Skinner et al. 1998"
+REF_007,Gershoff2002,elementary,2,1,1,4,0,2,-2,0,C4_correction,"Moderate frequency, low intensity; compliance pathway; source: Gershoff 2002"
+REF_008,Pomerantz2000,middle,3,2,2,7,2,0,2,2,L_pressure,"High R-index; defiance consolidating; behavior persists; source: Pomerantz & Eaton 2000"

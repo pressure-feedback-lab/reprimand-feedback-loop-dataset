@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Reprimand Feedback Loop Dataset"
+version: 0.1
+date-released: 2025-01-01
+abstract: >
+  A schema validation prototype exploring whether reprimand intensity
+  and internal defiance consolidation are independent dimensions in
+  disciplinary intervention contexts. Structurally isomorphic to
+  sanctions-regime feedback loop research.
+keywords:
+  - disciplinary intervention
+  - feedback loop
+  - nonlinear response
+  - defiance consolidation
+  - phase observation
+  - educational psychology
+notes: "v0.1 prototype. Not for empirical citation. Schema and phase-rule validation only."

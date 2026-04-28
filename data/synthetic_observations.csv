@@ -1,0 +1,11 @@
+subject_id,context,age_group,reprimand_frequency,reprimand_intensity,public_exposure,R_index,defiance_tendency,self_efficacy_erosion,F_fracture,problem_behavior_freq,phase,notes
+SYN_001,classroom,elementary,1,1,0,2,0,1,-1,0,C4_correction,"synthetic; schema test; low pressure low defiance"
+SYN_002,classroom,elementary,2,2,1,5,1,1,0,1,L_pressure,"synthetic; schema test; R=5 threshold; behavior persists"
+SYN_003,classroom,elementary,3,3,2,8,3,0,3,3,L_pressure,"synthetic; schema test; high pressure full defiance"
+SYN_004,home,middle,1,2,0,3,1,2,-1,1,C4_correction,"synthetic; schema test; home context low public exposure"
+SYN_005,home,middle,2,3,1,6,2,1,1,2,L_pressure,"synthetic; schema test; escalating home reprimand; L_pressure dominant"
+SYN_006,home,middle,3,3,3,9,3,0,3,3,L_pressure,"synthetic; schema test; maximum pressure maximum defiance"
+SYN_007,classroom,elementary,0,1,2,3,0,2,-2,0,C4_correction,"synthetic; schema test; public exposure without intensity"
+SYN_008,home,elementary,1,1,1,3,1,0,1,1,B_dominant,"synthetic; schema test; low pressure, defiance signal but freq insufficient for R_transition"
+SYN_009,classroom,middle,2,2,2,6,2,2,0,1,L_pressure,"synthetic; schema test; high R-index dominates; behavior persists"
+SYN_010,home,middle,1,2,1,4,0,3,-3,0,C4_correction,"synthetic; schema test; high self-efficacy erosion, zero defiance, R<=4; compliance"
