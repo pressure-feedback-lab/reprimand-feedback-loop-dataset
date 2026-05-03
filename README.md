@@ -1,12 +1,57 @@
 # Reprimand Feedback Loop Dataset (v0.1)
 
-**Does external disciplinary pressure reduce problem behavior — or does it sometimes reinforce it?**
+A micro-scale structural observation dataset for analyzing how external reprimand pressure can generate nonlinear feedback loops in children, classrooms, families, and small organizations.
 
-This dataset explores whether the intensity of reprimand (external pressure) and the degree of internal fracture in the subject (self-efficacy erosion vs. defiance consolidation) are independent dimensions — and whether their interaction follows a nonlinear phase structure.
+This repository is the body-grounded counterpart of the `sanctions-feedback-loop-dataset`.
+
+Where sanctions operate at the macro scale — states, logistics, finance, and regimes — reprimand operates at the micro scale: bodies, attention, fear, silence, defiance, and local adaptation.
+
+The central question is not:
+
+> How can reprimand correct behavior?
+
+but rather:
+
+> Under what conditions does pressure stop producing correction and begin producing silence, fracture, resistance, or delayed reversal?
+
+This repository does NOT attempt to optimize discipline.
+
+It observes how pressure interacts with adaptive systems.
+
+## Scale Isomorphism
+
+This dataset is structurally paired with the sanctions feedback loop model.
+
+| Scale | Pressure Form | Adaptive System | Hidden Response | Possible Nonlinear Outcome |
+|---|---|---|---|---|
+| Macro | sanctions | state / regime / logistics network | rerouting, shadow trade, silent resilience | regime hardening, delayed reversal |
+| Micro | reprimand | child / classroom / family / small group | silence, masking, defiance, self-efficacy erosion | behavioral persistence, internal fracture |
+
+The claim is not that children and states are the same.
+
+The claim is that pressure systems often share a structural pattern:
+
+```text
+external pressure
+→ local adaptation
+→ hidden state change
+→ delayed nonlinear response
+```
+
+The purpose of this repository is to make that pattern observable at a body-grounded scale.
 
 ## Structural Hypothesis
 
-The dominant assumption in disciplinary intervention design is linear:
+The dominant assumption in disciplinary intervention design is linear.
+
+However, this repository treats reprimand as a pressure signal entering an adaptive system.
+
+The subject may not simply “receive” pressure.
+They may absorb it, mask it, reroute it, internalize it, resist it, or convert it into silence.
+
+The key question is whether pressure and internal fracture are independent dimensions.
+
+The expected linear model assumes:
 
 ```
 reprimand_intensity↑ → discomfort↑ → behavior_correction↑
@@ -19,6 +64,42 @@ reprimand_intensity↑ → threat_narrative↑ → defiance_consolidation↑ →
 ```
 
 This is structurally isomorphic to the "sanctions feedback loop" observed in authoritarian regime resilience research.
+
+---
+
+## Not for Discipline Optimization
+
+This repository must not be used as a tool to improve punishment, coercion, classroom control, or behavioral pressure.
+
+It is designed for structural observation only.
+
+The intended use is to examine how external pressure may generate:
+
+- silence
+- masking
+- compliance without recovery
+- defiance consolidation
+- self-efficacy erosion
+- delayed reversal
+- local adaptation
+
+The ethical orientation is observational, not corrective.
+
+---
+
+## Additional Notes
+
+- [`docs/scale-isomorphism.md`](docs/scale-isomorphism.md)
+  Explains the macro / micro pairing with the sanctions feedback loop model.
+
+- [`docs/observation-model.md`](docs/observation-model.md)
+  Defines the observation target and nonlinear pressure model.
+
+- [`examples/sample_micro_case.yml`](examples/sample_micro_case.yml)
+  Minimal synthetic example of a reprimand feedback loop.
+
+- [`examples/sample_macro_micro_pair.yml`](examples/sample_macro_micro_pair.yml)
+  Conceptual pairing of macro sanctions pressure and micro reprimand pressure.
 
 ---
 

@@ -1,0 +1,32 @@
+pair_id: PRESSURE-PAIR-001
+status: conceptual_example
+
+macro_case:
+  repository: sanctions-feedback-loop-dataset
+  pressure_form: sanctions
+  adaptive_system: state / logistics network
+  hidden_response:
+    - rerouting
+    - informal brokerage
+    - muted public reaction
+  nonlinear_outcome:
+    - delayed reversal
+    - regime hardening
+
+micro_case:
+  repository: reprimand-feedback-loop-dataset
+  pressure_form: reprimand
+  adaptive_system: child / classroom
+  hidden_response:
+    - silence
+    - masking
+    - self-efficacy erosion
+  nonlinear_outcome:
+    - behavioral persistence
+    - defiance consolidation
+
+shared_structure:
+  - external pressure
+  - local adaptation
+  - hidden internal state change
+  - delayed nonlinear response

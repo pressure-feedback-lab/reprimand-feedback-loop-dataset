@@ -1,0 +1,30 @@
+case_id: RFL-SAMPLE-001
+scale: micro
+context: classroom
+status: synthetic_example
+
+pressure:
+  reprimand_frequency: 3
+  reprimand_intensity: 2
+  public_exposure: 3
+
+visible_behavior:
+  problem_behavior_freq: 2
+  apparent_compliance: 1
+
+hidden_adaptation:
+  silence: 2
+  masking: 2
+  defiance_tendency: 2
+  self_efficacy_erosion: 1
+
+phase_interpretation:
+  r_index: 8
+  f_fracture: 1
+  phase: R_transition
+
+notes:
+  - Public reprimand appears to increase visible silence.
+  - Behavioral correction is not clearly established.
+  - Internal defiance may be consolidating despite external compliance.
+  - This is a synthetic example for schema demonstration only.
